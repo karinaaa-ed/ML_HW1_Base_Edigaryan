@@ -12,3 +12,26 @@
   -  [ohe.joblib](https://github.com/karinaaa-ed/ML_HW1_Base_Edigaryan/blob/main/app/ohe.joblib) - OneHotEncoder для кодирования данных;
   -  [scaler.joblib](https://github.com/karinaaa-ed/ML_HW1_Base_Edigaryan/blob/main/app/scaler.joblib) - StandardScaler для стандартизации данных;
   -  [predictions.csv](https://github.com/karinaaa-ed/ML_HW1_Base_Edigaryan/blob/main/app/predictions.csv) - файл с предсказанными значениями стоимости автомобиля после запуска predict_file.
+
+---
+
+Алгоритм действий, который был применен для данной работы:
+1. Приведение данных к стандартному виду:
+   - заполнение пропусков,
+   - удаление дубликатов,
+   - удаление единиц из переменных mileage, engine и max_power и приведение их к необхходимому типу данных float,
+   - удаление столбцов name и torque, так как они не несли большой смысловой нагрузки;
+2. Визуализация данных с помощью построения графиков pairplot и корреляции Пирсона;
+3. Cтандартизация вещественных признаков с помощью StandardScaler;
+4. Обучение модели сначала на вещественных признаках с помощью линейной регрессии, Lasso регрессии, ElasticNet и оценка обученных моделей метриками качества $R^2$ и $MSE$;
+5. Добавление категориальных признаков и кодирование их с помощью OneHotEncoder;
+6. Обучение модели с помощью Ridge регрессии и ее оценка метриками качества $R^2$ и $MSE$;
+7. Создание собственной бизнесовой метрики (business_metric) для оценки качества всех обученных моделей;
+8. Реализация сервиса на FastAPI.
+
+---
+
+
+
+
+(https://drive.google.com/drive/folders/1Q38hXAAkNSQwRQle7VJcB_NshqZagZpo?usp=drive_link)
