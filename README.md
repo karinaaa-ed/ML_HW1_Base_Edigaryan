@@ -7,7 +7,7 @@
 - [Дашборд](https://github.com/karinaaa-ed/ML_HW1_Base_Edigaryan/blob/main/df_train_report.html), сохраненный в HTML-формате;
 - [Файл](https://github.com/karinaaa-ed/ML_HW1_Base_Edigaryan/blob/main/model_weights.pkl) с весами модели;
 - [Файл](https://github.com/karinaaa-ed/ML_HW1_Base_Edigaryan/blob/app/app.py) с реализацией сервиса приведен в папке app, в которой также находятся сопустсвующие файлы для работы сервиса:
-  -  [feature_name.txt](https://github.com/karinaaa-ed/ML_HW1_Base_Edigaryan/blob/app/feature_name.txt)  - список конечных названий признаков;
+  -  [feature_name.txt]([https://github.com/karinaaa-ed/ML_HW1_Base_Edigaryan/blob/app/feature_name.txt](https://github.com/karinaaa-ed/ML_HW1_Base_Edigaryan/blob/main/app/feature_names.txt))  - список конечных названий признаков;
   -  [model.joblib](https://github.com/karinaaa-ed/ML_HW1_Base_Edigaryan/blob/app/model.joblib)  - обученная модель Ridge;
   -  [ohe.joblib](https://github.com/karinaaa-ed/ML_HW1_Base_Edigaryan/blob/app/ohe.joblib) - OneHotEncoder для кодирования данных;
   -  [scaler.joblib](https://github.com/karinaaa-ed/ML_HW1_Base_Edigaryan/blob/app/scaler.joblib) - StandardScaler для стандартизации данных;
