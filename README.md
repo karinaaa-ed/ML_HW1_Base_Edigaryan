@@ -9,8 +9,8 @@
 - [Файл](https://github.com/karinaaa-ed/ML_HW1_Base_Edigaryan/blob/app/app.py) с реализацией сервиса приведен в папке app, в которой также находятся сопустсвующие файлы для работы сервиса:
   -  [feature_name.txt](https://github.com/karinaaa-ed/ML_HW1_Base_Edigaryan/blob/main/app/feature_names.txt)  - список конечных названий признаков;
   -  [model.joblib](https://github.com/karinaaa-ed/ML_HW1_Base_Edigaryan/blob/main/app/model.joblib)  - обученная модель Ridge;
-  -  [ohe.joblib](https://github.com/karinaaa-ed/ML_HW1_Base_Edigaryan/blob/main/app/ohe.joblib) - OneHotEncoder для кодирования данных;
-  -  [scaler.joblib](https://github.com/karinaaa-ed/ML_HW1_Base_Edigaryan/blob/main/app/scaler.joblib) - StandardScaler для стандартизации данных;
+  -  [ohe.joblib](https://github.com/karinaaa-ed/ML_HW1_Base_Edigaryan/blob/main/app/ohe.joblib) - $OneHotEncoder$ для кодирования данных;
+  -  [scaler.joblib](https://github.com/karinaaa-ed/ML_HW1_Base_Edigaryan/blob/main/app/scaler.joblib) - $StandardScaler$ для стандартизации данных;
   -  [predictions.csv](https://github.com/karinaaa-ed/ML_HW1_Base_Edigaryan/blob/main/app/predictions.csv) - файл с предсказанными значениями стоимости автомобиля после запуска predict_file.
 
 ---
