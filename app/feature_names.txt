@@ -1,0 +1,23 @@
+year
+km_driven
+mileage
+engine
+max_power
+fuel_Diesel
+fuel_LPG
+fuel_Petrol
+seller_type_Individual
+seller_type_Trustmark Dealer
+transmission_Manual
+owner_Fourth & Above Owner
+owner_Second Owner
+owner_Test Drive Car
+owner_Third Owner
+seats_14.0
+seats_2.0
+seats_4.0
+seats_5.0
+seats_6.0
+seats_7.0
+seats_8.0
+seats_9.0
